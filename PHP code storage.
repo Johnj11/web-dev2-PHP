@@ -91,7 +91,45 @@ $_SESSION
 	</body>
 </html>
 
+NEW PAGE
+array.php
+<html>
+	<head>
+		<style>
+		</style>
+	</head>
+	<body>
+		<?php
+			$testArray = array("test1 ","test2 ");
+			foreach($testArray as $test){
+				echo $test;
+			}
+		?>
+	</body>
+</html>
 
+NEW PAGE
+arrayInproved.php
+<html>
+	<head>
+		<style>
+		.liClass{
+			color:red;
+			font-family:comicSans;
+		}
+		</style>
+	</head>
+	<body>
+		<?php
+			$testArray = array("test1 ","test2 ","test3 ","test4 ","test5 ");
+			echo "<ol>";
+			foreach($testArray as $test){
+				echo"<li class = 'liClass'>".$test."</li>";
+			}
+			echo "</ol>";
+		?> 
+	</body>
+</html>
 
 
 
