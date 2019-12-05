@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "cssPage.css">
+	</head>
+	<body>
+		<form action="introPage.html" method="post">
+			<button type="submit">back</button>
+		</form>
+		<input type="text" id="myText" value="">
+		<div id="answer"></div>
+		<button type="button" id= "subBtn">test button</button>
+		<script>
+			document.getElementById("subBtn").addEventListener("click",myFunction);
+			
+			var b = "faker is the best player";
+			var c = "Annie, Aurelion Sol, Brand, Camille, Cassiopeia, Elise, Fiora, Galio, Garen, Graves, Heimerdinger, Irelia, Ivern, Janna, Jarvan, Jhin, Katarina, Kayn, Leblanc, Lee Sin, Lux, Miss Fortune, Morgana, Orianna, Sona, Swain, Talon, Twisted Fate, Vayne, Xin Zhao, Yorick, Zac, Ashe, Braum, Diana, Gragas, Leona, Lissandra, Nami, Nunu, Olaf, Pantheon, Rakan, Rengar, Sejuani, Taliyah, Tryndamere, Udyr, Volibear, Wukong, Xayah, Akali, Amumu, Azir, Caitlyn, Corki, Darius, Draven, Dr Mundo, Ekko, Evelynn, Ezreal, Gangplank, Gnar, Illaoi, Jayce, Jinx, Karma, Karthus, Kassadin, Kennen, Kled, Lucian, Lulu, Malzahar, Master Yi, Nasus, Nautilus, Nidalee, Poppy, Quinn, Renekton, Riven, Rumble, Ryze, Shaco ,Shen, Shyvana, Singed ,Sion, Sivir, Soraka, Syndra, Taric, Teemo, Tristana, Urgot, Varus, Veigar, Vi, Viktor, Vladimir, Warwick, Xerath, Yasuo, Zed, Ziggs, Zilean, Aatrox, Alistar, Anivia, Ahri, Bard, Blitzcrank, Cho'Gath, Fiddlesticks, Fizz, Hecarim, Jax, Kalista, Kayle, Kha'Zix, Kindred, Kog'Maw, Malphite, Maokai ,Mordekaiser, Nocturne, Rammus, Rek'sai, Skarner, Tahm Kench, Thresh, Trundle, Twitch, Vel'Koz, Zyra.";
+			var d = "Rammus quotes";
+			var x = "Please refer to the Q&A Page";
+			var y = "Brandon Beck and Marc Merrill, and currently under the leadership of CEO Nicolo Laurent";
+			
+			function myFunction(){
+				var t = document.getElementById("myText").value;
+				var w = t.includes("characters");
+				var a = t.includes("creaters");
+				if(t == "What is this game?"){
+					document.getElementById("answer").innerHTML = x;
+				}
+				else if (t == "why is this game your favorit?"){
+					document.getElementById("answer").innerHTML = x;
+				}
+				else if (t == "How do you play this game?"){
+					document.getElementById("answer").innerHTML = x;
+				}
+				else if (t == "Why spend so much time on this game?"){
+					document.getElementById("answer").innerHTML = x;
+				}
+				else if (t == "Is it free?"){
+					document.getElementById("answer").innerHTML = x;
+				}
+				else if (w == true){
+					document.getElementById("answer").innerHTML = c;
+				}
+				else if (a == true){
+					document.getElementById("answer").innerHTML = y;
+				}
+				else if (t == "who is the best player"){
+					document.getElementById("answer").innerHTML = b;
+				}
+				else if(t == "This game is stuped"){
+					location.replace("deathPage.HTML")
+				}
+				else{
+					document.getElementById("answer").innerHTML = d;
+				}
+			}
+			
+		</script>
+	</body>
+</html>

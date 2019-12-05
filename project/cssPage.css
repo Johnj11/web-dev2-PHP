@@ -1,0 +1,123 @@
+body{
+	background-color:rgb(0, 84, 209);
+	
+}
+#loginPic{
+	height: 50%;
+	width: 50%;
+}
+#textDiv{
+	text-color:white;
+}
+#kaisaPhoto{	
+	height: 50%;
+	width: 50%;
+}
+#myText{
+	
+	width: 755px;
+}
+#myText2{
+	
+	width: 755px;
+}
+#myText3{
+	
+	width: 402px;
+}
+.vid{
+	display: none;
+}
+#q1Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(54, 34, 69);
+	background-color:rgb(194, 115, 181);
+}
+#q2Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(163, 167, 179);
+	background-color:rgb(63, 94, 138);
+}
+#q3Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(130, 231, 240);
+	background-color:rgb(228, 83, 86);
+}
+#q4Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(69, 112, 92);
+	background-color:rgb(88, 189, 183);
+}
+#q5Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(199, 182, 174);
+	background-color:rgb(124, 113, 191);
+}
+#a1Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(194, 115, 181);
+	background-color:rgb(54, 34, 69);
+	color:white;
+}
+#a2Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(163, 167, 179);
+	background-color:rgb(63, 94, 138);
+	color:white;
+}
+#a3Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(130, 231, 240);
+	background-color:rgb(228, 83, 86);
+	color:white;
+}
+#a4Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(69, 112, 92);
+	background-color:rgb(88, 189, 183);
+	color:white;
+}
+#a5Div{
+	font-size:70px;
+	border-style:solid;
+	border-color:rgb(199, 182, 174);
+	background-color:rgb(124, 113, 191);	
+	color:white;
+}
+a{
+	color:white;
+}
+#picLink{
+	margin-right:25px;
+	display:inline;
+}
+#vidLink{
+	margin-right:25px;
+	display:inline;
+}
+#qaLink{
+	margin-right:25px;
+	display:inline;
+}
+#QBLink{
+	margin-right:25px;
+	display:inline;
+}
+h1{
+	color:white;
+}
+
+#answer{
+	color:white;
+}
+
+
