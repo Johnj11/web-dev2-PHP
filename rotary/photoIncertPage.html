@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<style>
+		
+		</style>
+	
+	
+	</head>
+	<body>
+		<img id="fill" src="">
+		<input type="file" id="imageBox">Insert Image here.</input>
+		
+		<script>
+			document.getElemntById("goBtn").addEventlistener("click",ballz);
+			function ballz(){
+				var x = document.getElemntById("imageBox").value;
+				document.getElemntById("fill").src = x;
+			}
+		</script>
+	</body>
+</html>
