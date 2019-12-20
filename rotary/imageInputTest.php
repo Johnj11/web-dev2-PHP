@@ -5,7 +5,7 @@
 		</style>
 	</head>
 	<body>
-		<img src="" alt="" id="EmptyImage">
+		<img src="" alt="" id="emptyImage">
 		<input type="file" name="fileupload" value="fileupload" id="fileupload"> 
 		<label for="fileupload"> Select a file to upload</label> 
 		<input type="submit" value="submit" id = "subBtn"> 
@@ -19,8 +19,7 @@
 		document.getElementById("subBtn").addEventlistener("click", picInput);
 		
 		function picInput(){
-			picInnerHTML;
-		}
+			document.getElementById("emptyImage").innerHTML = document.getElementById().src= "";
 		
 		</script>
 	</body>
