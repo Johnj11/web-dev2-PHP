@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<img src="" alt="" id="emptyImage">
-		<input type="file" name="fileupload" value="fileupload" id="fileupload"> 
+		<input type="file" name="fileupload" value="fileupload" id="fileUpLoad"> 
 		<label for="fileupload"> Select a file to upload</label> 
 		<input type="submit" value="submit" id = "subBtn"> 
 		<?php
@@ -14,12 +14,12 @@
 		
 		?>
 		<script>
-		var PicInnerHTML = document.getElementById("fileuplod").innerHTML;
+		var PicInnerHTML = document.getElementById("fileUpLoad").innerHTML;
 		
 		document.getElementById("subBtn").addEventlistener("click", picInput);
 		
 		function picInput(){
-			document.getElementById("emptyImage").innerHTML = document.getElementById().src= "";
+			document.getElementById("emptyImage").innerHTML = document.getElementById().src= fileUpLode.;
 		
 		</script>
 	</body>
