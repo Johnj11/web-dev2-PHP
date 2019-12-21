@@ -19,8 +19,8 @@
 		document.getElementById("subBtn").addEventlistener("click", picInput);
 		
 		function picInput(){
-			document.getElementById("emptyImage").innerHTML = document.getElementById().src= fileUpLode.;
-		
+			document.getElementById("emptyImage").innerHTML = document.getElementById("emptyImage").src= fileUpLode.innerHTML;
+		}
 		</script>
 	</body>
 </html>
